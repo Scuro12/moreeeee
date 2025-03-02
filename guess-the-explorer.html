@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .image-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5px;
+            max-width: 100%;
+        }
+        .image-grid img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        /* Main Image & Twinkl Logo Layout */
+        .main-image-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px; /* Space between image and logo */
+            flex-wrap: wrap;
+        }
+
+        /* Twinkl Logo Styling */
+        .twinkl-logo {
+            max-width: 150px; /* Adjust size as needed */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Guess the Explorer</h1>
+            <nav>
+                <a href="index.html" style="color: white;">Back to Portfolio</a>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="project-detail">
+        <div class="container">
+            <div class="main-image-container">
+                <img src="images/TitleGuesstheExplorer.PNG" alt="Guess the Explorer">
+                <img src="images/TwinklGo.png" alt="Twinkl Logo" class="twinkl-logo">
+            </div>
+
+            <section id="about-game">
+                <h2>About the Game</h2>
+                <p>Guess the Explorer is a history trivia game where players become detectives of the past! 
+				Use a series of clues to uncover the identity of legendary explorers and test your knowledge of famous explorers. 
+				Can you piece together the hints and correctly guess the famous adventurer before all the clues are revealed?</p>
+
+                <p><strong>Play Now:</strong> 
+                    <a href="https://www.twinkl.co.uk/resource/guess-the-significant-explorer-game-t-h-1654778182" target="_blank" style="color: white; text-decoration: underline;">
+                        Click here to play
+                    </a>
+                </p>
+                <p style="color: white; font-size: 14px;"><em>(A Twinkl subscription is required to play.)</em></p>
+            </section>
+            
+            <h3><u>Tools Used</u></h3>
+            <p>Unity (C# for scripting)</p>
+            <p>Photoshop</p>
+            
+            <h2>Additional Screenshots</h2>
+            <div class="image-grid">
+                <img src="images/GuessGame1.PNG" alt="Guess the Explorer Screenshot 1">
+                <img src="images/GuessGame2.PNG" alt="Guess the Explorer Screenshot 2">
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Jack Knowler | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

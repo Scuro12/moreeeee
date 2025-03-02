@@ -1,0 +1,194 @@
+/* General Styles */
+body {
+    background-color: #040419; /* Keeps body background dark navy */
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and Footer with Charcoal Black */
+header, footer {
+    background-color: #1A1A1A; /* Charcoal Black for a sleek, modern look */
+    border-bottom: 3px solid #00aaff; /* Cyan border for contrast */
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Footer Border Adjustment */
+footer {
+    border-top: 3px solid #00aaff;
+}
+
+
+
+/* Align "About Me" Header and Image */
+.about-page .container {
+    max-width: 900px; /* Limits width for better readability */
+    margin: auto; /* Centers content */
+}
+
+/* About Me Header Layout */
+.about-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Pushes image far right */
+    flex-wrap: wrap;
+    margin-bottom: 10px; /* Reduces gap */
+}
+
+/* Profile Image Styling */
+.profile-image {
+    width: 180px; /* Increased size */
+    height: 180px;
+    border-radius: 50%;
+    border: 4px solid #ffffff;
+    object-fit: cover;
+    margin-left: auto; /* Pushes image far right */
+    display: block;
+}
+
+/* About Me Text Formatting */
+.about-text {
+    flex: 1; /* Allows text to take up remaining space */
+    max-width: 600px; /* Keeps lines readable */
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .about-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .profile-image {
+        margin-left: 0; /* Centers image on small screens */
+        margin-top: 10px;
+    }
+
+    .about-text {
+        max-width: 100%; /* Allows text to expand fully on small screens */
+    }
+}
+
+/* Project Images with Cyan Border */
+.project img {
+    max-width: 100%;
+    border-radius: 8px;
+    border: 4px solid #00aaff;
+}
+
+/* Project Links - White Text */
+.project p a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project p a:hover {
+    text-decoration: underline;
+}
+
+/* Centered Container */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header Text */
+header h1 {
+    color: #00aaff;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 5px;
+    color: #ddd;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #00aaff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Social Icons */
+.social-icons {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #00aaff;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h2 {
+    font-size: 32px;
+    color: #00aaff;
+}
+
+/* Projects Section */
+.projects {
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Project Box - Muted Cyan for Contrast */
+.project {
+    background-color: #003a52;
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 170, 255, 0.2);
+}
+
+/* Project Images - White Border */
+.project img {
+    max-width: 100%;
+    border-radius: 8px;
+    border: 4px solid #ffffff;
+}
+
+/* Project Text */
+.project p {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #ddd;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    color: #aaa;
+    margin-top: 20px;
+}
